@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "bp_8_0_fontloader",
+    'name': "Fontloader",
 
     'summary': """
     Provide Fontloader for the Themes""",
@@ -8,22 +8,24 @@
     'description': """
     Provide Fontloader for the Themes""",
 
-    'author': "BLOOPARK SYSTEMS GMBH. & CO. KG",
+    'author': "bloopark systems GmbH & Co. KG",
     'website': "http://www.bloopark.de",
 
-    'category': 'theme',
-    'version': '0.1',
+    'category': 'Speed Up',
+    'version': '1.0',
 
-
-    # any module necessary for this one to work correctly
     'depends': [
         'base',
         'website'
     ],
-
-    # always loaded
     'data': [
         'views/res_config.xml',
         'views/themes.xml'
+    ],
+
+    'demo': [
+    ],
+
+    'tests': [
     ],
 }

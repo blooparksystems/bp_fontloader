@@ -1,6 +1,5 @@
-=============
 bp_fontloader
-=============
+=================
 
 fontloader for speeting up the website
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
