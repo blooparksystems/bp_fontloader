@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<!-- Add menu entry for fontloader -->
+		<record id="fontloader_view_website_config_settings" model="ir.ui.view">
+			<field name="name">Fontloader</field>
+			<field name="model">website.config.settings</field>
+			<field name="inherit_id" ref="website.view_website_config_settings" />
+			<field name="arch" type="xml">
+				<xpath expr="//group[@string='Language']" position="after">
+					<group string="Fontloader">
+						<label for="use_fontloader">Activated</label>
+						<div name="use_fontloader">
+							<div>
+								<div name="use_fontloader" class="oe_inline">
+									<field name="use_fontloader" />
+								</div>
+							</div>
+						</div>
+					</group>
+				</xpath>
+			</field>
+		</record>
+
+	</data>
+</openerp>
