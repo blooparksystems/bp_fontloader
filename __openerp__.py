@@ -20,16 +20,11 @@
 ##############################################################################
 {
     'name': "Fontloader",
-
-    'summary': """
-    Provide Fontloader for the Themes""",
-
-    'description': """
-    Provide Fontloader for the Themes""",
-
+    'summary': """Provide Fontloader for the Themes""",
+    'description': """Provide Fontloader for the Themes""",
     'author': "bloopark systems GmbH & Co. KG",
     'website': "http://www.bloopark.de",
-
+    'license': 'AGPL-3',
     'category': 'Speed Up',
     'version': '1.0',
 
@@ -42,9 +37,4 @@
         'views/themes.xml'
     ],
 
-    'demo': [
-    ],
-
-    'tests': [
-    ],
 }
